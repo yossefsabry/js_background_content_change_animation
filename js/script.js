@@ -15,7 +15,7 @@ let slideStrat = 0;
 nextBtns.forEach((btn) => {
   btn.addEventListener("click", next);
 });
-
+/*
 function next() {
   sliders.forEach((slide) => {
     slide.classList.remove("active");
@@ -26,13 +26,22 @@ function next() {
   }
   sliders[slideStrat].classList.add("active");
   console.log("done");
+}*/
+function next(){
+  sliders.forEach((slide)=>{
+    slide.classList.remove('active');
+  })
+  slideStrat++;
+  console.log(slideStrat%slidersNumber);
+  sliders[(slideStrat)%slidersNumber].classList.add('active');
 }
 
 // previous
+
 pervBtns.forEach((btn) => {
   btn.addEventListener("click", prev);
 });
-
+/*
 function prev() {
   sliders.forEach((slide) => {
     slide.classList.remove("active");
@@ -43,6 +52,17 @@ function prev() {
   }
   sliders[slideStrat].classList.add("active");
   console.log("done");
+}*/
+
+function prev(){
+  sliders.forEach((slide)=>{
+    slide.classList.remove('active');
+  })
+  slideStrat--;
+  slideStrat=slideStrat>0?slideStrat:slidersNumber-1;
+  console.log(slideStrat%slidersNumber);
+  sliders[(slideStrat)%slidersNumber].classList.add('active');
 }
+
 // every 3 second make the animation
-setInterval(prev, 3000);
+//setInterval(prev, 3000);
