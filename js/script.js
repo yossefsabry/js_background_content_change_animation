@@ -65,4 +65,4 @@ function prev(){
 }
 
 // every 3 second make the animation
-//setInterval(prev, 3000);
+setInterval(prev, 3000);
