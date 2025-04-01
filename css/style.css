@@ -270,11 +270,6 @@ header .container nav ul li:hover::after {
 
 /* media for window 768 and under that */
 @media (max-width: 768px) {
-    body {
-        overflow: hidden !important;
-        box-sizing: border-box;
-        width: 100%;
-    }
     header .container {
         overflow: hidden !important;
         padding: 10px 30px;
