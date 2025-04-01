@@ -312,16 +312,14 @@ header .container nav ul li:hover::after {
         font-size: 6rem;
     }
     .slide .left_slide h1{
-        transform: translateY(-200px);
+        transform: translateY(-150px);
     }
     .slide.active .right_slide h1{
-        transform: translateY(-200px);
+        transform: translateY(-150px);
     }
 
     .slide .left_slide .info h3 {
         font-size: 13px;
-        transform: translateY(-60px);
-
     }
     .slide .left_slide .info p {
         font-size: 10px;
@@ -335,10 +333,10 @@ header .container nav ul li:hover::after {
     }
     .slide .right_slide .info h2 {
         font-size: 30px;
-        transform: translateY(-220px);
+        transform: translateY(-160px);
     }
     .slide .right_slide .next_prev {
-        bottom: 3rem;
+        bottom: 10rem;
         right: 3rem;
     }
     .slide .right_slide .next_prev #next,
