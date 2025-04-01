@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore amazing forest tours to breathtaking destinations around the world. Book your next adventure today!">
+        <meta name="keywords" content="forest tours, travel destinations, nature tours, adventure, forest travel, eco-tourism">
+        <meta name="author" content="Tours Company">
+        <title>Explore the Best Forest Tours - Global Travel Destinations</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <script defer src="js/script.js"></script>
+
+        <!-- Lazy Loading for images -->
+        <link rel="preload" href="./images/china.jpg" as="image">
+        <link rel="preload" href="./images/africa.jpg" as="image">
+        <link rel="preload" href="./images/japan.jpg" as="image">
+        <link rel="preload" href="./images/serbia.jpg" as="image">
+        <link rel="preload" href="./images/brazil.jpg" as="image">
+
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.yoursite.com",
+            "name": "Tours",
+            "description": "Explore amazing forest tours to breathtaking destinations 
+                        around the world. Book your next adventure today!",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Tours Company",
+                "logo": "https://www.yoursite.com/logo.png"
+            },
+            "mainEntityOfPage": "https://www.yoursite.com"
+        }
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo_social">
+                    <div class="logo" aria-label="Site Logo">Tours.</div>
+                    <div class="social" aria-label="Social Media Links">
+                        <a href="#" aria-label="Facebook">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="#" aria-label="Twitch">
+                            <i class='bx bxl-twitch'></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#destinations" title="Explore Travel Destinations">Destinations</a></li>
+                        <li><a href="#booking" title="Book Your Tour">Booking</a></li>
+                        <li><a href="#services" title="Our Tour Services">Services</a></li>
+                        <li><a href="#contact" title="Contact Us">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="content">
+                <!-- Slide 1 -->
+                <section class="slide active" aria-live="polite">
+                    <img src="./images/china.jpg" alt="Scenic view of China Forest" loading="lazy">
+                    <div class="left_slide">
+                        <h1>Chi</h1>
+                        <div class="info">
+                            <h3>01. China Forest Tour</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                                voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                                unde dolore molestiae at perspiciatis!</p>
+                            <button class="btn" aria-label="More details about China Forest Tour">More Details</button>
+                        </div>
+                    </div>
+                    <div class="right_slide">
+                        <div class="info">
+                            <h1>na</h1>
+                            <h2>forest</h2>
+                        </div>
+                        <div class="next_prev" role="navigation" aria-label="Slide controls">
+                            <button aria-label="Next Slide" class="next" id="next">
+                                <i class='bx bx-skip-next'></i>
+                            </button>
+                            <button aria-label="Previous Slide" class="prev" id="prev">
+                                <i class='bx bx-skip-previous'></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 2 -->
+                <section class="slide" aria-live="polite">
+                    <img src="./images/africa.jpg" alt="Scenic view of Africa Forest" loading="lazy">
+                    <div class="left_slide">
+                        <h1>Afr</h1>
+                        <div class="info">
+                            <h3>02. Africa Forest Tour</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                                voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                                unde dolore molestiae at perspiciatis!</p>
+                            <button class="btn" aria-label="More details about Africa Forest Tour">More Details</button>
+                        </div>
+                    </div>
+                    <div class="right_slide">
+                        <div class="info">
+                            <h1>ica</h1>
+                            <h2>forest</h2>
+                        </div>
+                        <div class="next_prev" role="navigation" aria-label="Slide controls">
+                            <button aria-label="Next Slide" class="next" id="next">
+                                <i class='bx bx-skip-next'></i>
+                            </button>
+                            <button aria-label="Previous Slide" class="prev" id="prev">
+                                <i class='bx bx-skip-previous'></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 3 -->
+                <section class="slide" aria-live="polite">
+                    <img src="./images/japan.jpg" alt="Scenic view of Japan Forest" loading="lazy">
+                    <div class="left_slide">
+                        <h1>Jap</h1>
+                        <div class="info">
+                            <h3>03. Japan Forest Tour</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                                voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                                unde dolore molestiae at perspiciatis!</p>
+                            <button class="btn" aria-label="More details about Japan Forest Tour">More Details</button>
+                        </div>
+                    </div>
+                    <div class="right_slide">
+                        <div class="info">
+                            <h1>an</h1>
+                            <h2>forest</h2>
+                        </div>
+                        <div class="next_prev" role="navigation" aria-label="Slide controls">
+                            <button aria-label="Next Slide" class="next" id="next">
+                                <i class='bx bx-skip-next'></i>
+                            </button>
+                            <button aria-label="Previous Slide" class="prev" id="prev">
+                                <i class='bx bx-skip-previous'></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 4 -->
+                <section class="slide" aria-live="polite">
+                    <img src="./images/serbia.jpg" alt="Scenic view of Serbia Forest" loading="lazy">
+                    <div class="left_slide">
+                        <h1>Ser</h1>
+                        <div class="info">
+                            <h3>04. Serbia Forest Tour</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                                voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                                unde dolore molestiae at perspiciatis!</p>
+                            <button class="btn" aria-label="More details about Serbia Forest Tour">More Details</button>
+                        </div>
+                    </div>
+                    <div class="right_slide">
+                        <div class="info">
+                            <h1>bia</h1>
+                            <h2>forest</h2>
+                        </div>
+                        <div class="next_prev" role="navigation" aria-label="Slide controls">
+                            <button aria-label="Next Slide" class="next" id="next">
+                                <i class='bx bx-skip-next'></i>
+                            </button>
+                            <button aria-label="Previous Slide" class="prev" id="prev">
+                                <i class='bx bx-skip-previous'></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 5 -->
+                <section class="slide" aria-live="polite">
+                    <img src="./images/brazil.jpg" alt="Scenic view of Brazil Forest" loading="lazy">
+                    <div class="left_slide">
+                        <h1>Bra</h1>
+                        <div class="info">
+                            <h3>05. Brazil Forest Tour</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                                voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                                unde dolore molestiae at perspiciatis!</p>
+                            <button class="btn" aria-label="More details about Brazil Forest Tour">More Details</button>
+                        </div>
+                    </div>
+                    <div class="right_slide">
+                        <div class="info">
+                            <h1>zil</h1>
+                            <h2>forest</h2>
+                        </div>
+                        <div class="next_prev" role="navigation" aria-label="Slide controls">
+                            <button aria-label="Next Slide" class="next" id="next">
+                                <i class='bx bx-skip-next'></i>
+                            </button>
+                            <button aria-label="Previous Slide" class="prev" id="prev">
+                                <i class='bx bx-skip-previous'></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Tours. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+
+</html>
+

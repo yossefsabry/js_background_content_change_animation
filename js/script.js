@@ -5,12 +5,6 @@ const slidersNumber = sliders.length;
 
 let slideStrat = 0;
 
-// console.log(nextBtns);
-// console.log(pervBtns);
-// console.log(slides)
-// console.log(slidersNumber)
-// console.log(slideStrat)
-
 // next
 nextBtns.forEach((btn) => {
   btn.addEventListener("click", next);
@@ -25,7 +19,6 @@ function next() {
     slideStrat = 0;
   }
   sliders[slideStrat].classList.add("active");
-  console.log("done");
 }
 
 // previous
@@ -42,7 +35,7 @@ function prev() {
     slideStrat = slidersNumber - 1;
   }
   sliders[slideStrat].classList.add("active");
-  console.log("done");
 }
 // every 3 second make the animation
-setInterval(prev, 3000);
+setInterval(prev, 10000);
+

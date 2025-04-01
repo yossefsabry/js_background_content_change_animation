@@ -1,159 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore amazing forest tours to breathtaking 
+            destinations around the world. Book your next adventure today!">
+        <meta name="keywords" content="forest tours, travel destinations, nature tours,
+            adventure, forest travel, eco-tourism">
+        <meta name="author" content="Tours Company">
+        <title>Explore the Best Forest Tours - Global Travel Destinations</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script defer src="js/script.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js slider</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- fontawsome -->
-    <link rel="stylesheet" href="css/all.min.css">
+        <!-- Lazy Loading for images -->
+        <link rel="preload" href="./images/china.jpg" as="image">
+        <link rel="preload" href="./images/africa.jpg" as="image">
+        <link rel="preload" href="./images/japan.jpg" as="image">
+        <link rel="preload" href="./images/serbia.jpg" as="image">
+        <link rel="preload" href="./images/brazil.jpg" as="image">
 
-</head>
+        <!-- fontawsome -->
+    </head>
 
-<body>
-    <header>
-        <div class="container">
-            <div class="logo_social">
-                <div class="logo">Tours.</div>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo_social">
+                    <div class="logo" aria-label="Site logo">Tours.</div>
 
-                <div class="social">
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <div class="social">
+                        <i class='bx bxl-facebook' aria-label="facebook icon" ></i>
+                        <i class='bx bxl-twitter' aria-label="twitter icon"  ></i>
+                        <i class='bx bxl-twitch' aria-label="twitch icon" ></i>
+                        <i class='bx bxl-instagram' aria-label="instagram icon" ></i>
+                        <i class='bx bxl-linkedin' aria-label="linkedin icon" ></i>
+                    </div>
+                </div>
+                <nav class="link_sections" aria-label="link sections">
+                    <ul>
+                        <li aria-label="Destinations link" title="Explore Travel Destinations"
+                            href="#destination">Destinations</li>
+                        <li aria-label="Booking link" title="Book Your Tour"
+                            href="#booking">Booking</li>
+                        <li aria-label="Services link"  title="Our Tour Services"
+                            href="#service">Servies</li>
+                        <li aria-label="Contact link"  title="Contact Us"
+                            href="#contact">Contact</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content" aria-label="Main content">
+            <div class="slide active" aria-live="polite" aria-label="China Forest Tour">
+                <img src="./images/china.jpg" alt="Scenic view of China forest" loading="lazy">
+                <div class="left_slide">
+                    <h1>Chi</h1>
+                    <div class="info">
+                        <h3>01. China Forest Tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                            voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                            unde dolore molestiae at perspiciatis!</p>
+                        <button class="btn" aria-label="More details about China Forest Tour">More Details</button>
+                    </div>
+                </div>
+                <div class="right_slide">
+                    <div class="info">
+                        <h1>na</h1>
+                        <h2>forest</h2>
+                    </div>
+                    <div class="next_prev" role="navigation" aria-label="Next and Previous Slide">
+                        <i class='bx bx-skip-next' id="next" aria-label="Next slide"></i>
+                        <i class='bx bx-skip-previous' id="prev" aria-label="Previous slide"></i>
+                    </div>
                 </div>
             </div>
-            <nav>
-                <ul>
-                    <li>Destinations</li>
-                    <li>Booking</li>
-                    <li>Servies</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
+            <div class="slide" aria-live="polite" aria-label="Africa Forest Tour">
+                <img src="./images/africa.jpg" alt="Scenic view of Africa forest" loading="lazy">
+                <div class="left_slide">
+                    <h1>Afr</h1>
+                    <div class="info">
+                        <h3>02. Africa Forest Tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                            voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                            unde dolore molestiae at perspiciatis!</p>
+                        <button class="btn" aria-label="More details about Africa Forest Tour">More Details</button>
+                    </div>
+                </div>
+                <div class="right_slide">
+                    <div class="info">
+                        <h1>ica</h1>
+                        <h2>forest</h2>
+                    </div>
+                    <div class="next_prev" role="navigation" aria-label="Next and Previous Slide">
+                        <i class='bx bx-skip-next' id="next" aria-label="Next slide"></i>
+                        <i class='bx bx-skip-previous' id="prev" aria-label="Previous slide"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" aria-live="polite" aria-label="Japan Forest Tour">
+                <img src="./images/japan.jpg" alt="Scenic view of Japan forest" loading="lazy">
+                <div class="left_slide">
+                    <h1>Jap</h1>
+                    <div class="info">
+                        <h3>03. Japan Forest Tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                            voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                            unde dolore molestiae at perspiciatis!</p>
+                        <button class="btn" aria-label="More details about Japan Forest Tour">More Details</button>
+                    </div>
+                </div>
+                <div class="right_slide">
+                    <div class="info">
+                        <h1>an</h1>
+                        <h2>forest</h2>
+                    </div>
+                    <div class="next_prev" role="navigation" aria-label="Next and Previous Slide">
+                        <i class='bx bx-skip-next' id="next" aria-label="Next slide"></i>
+                        <i class='bx bx-skip-previous' id="prev" aria-label="Previous slide"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" aria-live="polite" aria-label="Serbia Forest Tour">
+                <img src="./images/serbia.jpg" alt="Scenic view of Serbia forest" loading="lazy">
+                <div class="left_slide">
+                    <h1>Ser</h1>
+                    <div class="info">
+                        <h3>04. Serbia Forest Tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                            voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                            unde dolore molestiae at perspiciatis!</p>
+                        <button class="btn" aria-label="More details about Serbia Forest Tour">More Details</button>
+                    </div>
+                </div>
+                <div class="right_slide">
+                    <div class="info">
+                        <h1>bia</h1>
+                        <h2>forest</h2>
+                    </div>
+                    <div class="next_prev" role="navigation" aria-label="Next and Previous Slide">
+                        <i class='bx bx-skip-next' id="next" aria-label="Next slide"></i>
+                        <i class='bx bx-skip-previous' id="prev" aria-label="Previous slide"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" aria-live="polite" aria-label="Brazil Forest Tour">
+                <img src="./images/brazil.jpg" alt="Scenic view of Brazil forest" loading="lazy">
+                <div class="left_slide">
+                    <h1>Bra</h1>
+                    <div class="info">
+                        <h3>05. Brazil Forest Tour</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
+                            voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
+                            unde dolore molestiae at perspiciatis!</p>
+                        <button class="btn" aria-label="More details about Brazil Forest Tour">More Details</button>
+                    </div>
+                </div>
+                <div class="right_slide">
+                    <div class="info">
+                        <h1>zil</h1>
+                        <h2>forest</h2>
+                    </div>
+                    <div class="next_prev" role="navigation" aria-label="Next and Previous Slide">
+                        <i class='bx bx-skip-next' id="next" aria-label="Next slide"></i>
+                        <i class='bx bx-skip-previous' id="prev" aria-label="Previous slide"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-    <div class="content">
-        <div class="slide active">
-            <img src="images/china.jpg" alt="china">
-            <div class="left_slide">
-                <h1>Chi</h1>
-                <div class="info">
-                    <h3>01. China Forest Tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
-                        voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
-                        unde dolore molestiae at perspiciatis!</p>
-                    <button class="btn">More Details</button>
-                </div>
-            </div>
-            <div class="right_slide">
-                <div class="info">
-                    <h1>na</h1>
-                    <h2>forest</h2>
-                </div>
-                <div class="next_prev">
-                    <i class="fa-solid fa-chevron-left" id="prev"></i>
-                    <i class="fa-solid fa-chevron-right" id="next"></i>
-                </div>
-            </div>
-        </div>
-        <div class="slide ">
-            <img src="images/africa.jpg" alt="afr">
-            <div class="left_slide">
-                <h1>Afr</h1>
-                <div class="info">
-                    <h3>02. Africa Forest Tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
-                        voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
-                        unde dolore molestiae at perspiciatis!</p>
-                    <button class="btn">More Details</button>
-                </div>
-            </div>
-            <div class="right_slide">
-                <div class="info">
-                    <h1>ica</h1>
-                    <h2>forest</h2>
-                </div>
-                <div class="next_prev">
-                    <i class="fa-solid fa-chevron-left" id="prev"></i>
-                    <i class="fa-solid fa-chevron-right" id="next"></i>
-                </div>
-            </div>
-        </div>
-        <div class="slide">
-            <img src="images/japan.jpg" alt="japan">
-            <div class="left_slide">
-                <h1>Jap</h1>
-                <div class="info">
-                    <h3>03. Japan Forest Tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
-                        voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
-                        unde dolore molestiae at perspiciatis!</p>
-                    <button class="btn">More Details</button>
-                </div>
-            </div>
-            <div class="right_slide">
-                <div class="info">
-                    <h1>an</h1>
-                    <h2>forest</h2>
-                </div>
-                <div class="next_prev">
-                    <i class="fa-solid fa-chevron-left" id="prev"></i>
-                    <i class="fa-solid fa-chevron-right" id="next"></i>
-                </div>
-            </div>
-        </div>
-        <div class="slide">
-            <img src="images/serbia.jpg" alt="serbia">
-            <div class="left_slide">
-                <h1>Ser</h1>
-                <div class="info">
-                    <h3>04. Serbia Forest Tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
-                        voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
-                        unde dolore molestiae at perspiciatis!</p>
-                    <button class="btn">More Details</button>
-                </div>
-            </div>
-            <div class="right_slide">
-                <div class="info">
-                    <h1>bia</h1>
-                    <h2>forest</h2>
-                </div>
-                <div class="next_prev">
-                    <i class="fa-solid fa-chevron-left" id="prev"></i>
-                    <i class="fa-solid fa-chevron-right" id="next"></i>
-                </div>
-            </div>
-        </div>
-        <div class="slide">
-            <img src="images/brazil.jpg" alt="brazil">
-            <div class="left_slide">
-                <h1>Bra</h1>
-                <div class="info">
-                    <h3>05. Brazil Forest Tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis atque impedit qui voluptatem
-                        voluptatibus! Inventore quaerat officia magni cum, et error, temporibus officiis sint, fugiat
-                        unde dolore molestiae at perspiciatis!</p>
-                    <button class="btn">More Details</button>
-                </div>
-            </div>
-            <div class="right_slide">
-                <div class="info">
-                    <h1>zil</h1>
-                    <h2>forest</h2>
-                </div>
-                <div class="next_prev">
-                    <i class="fa-solid fa-chevron-left" id="prev"></i>
-                    <i class="fa-solid fa-chevron-right" id="next"></i>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="js/script.js"></script>
-    <!-- fontawsome -->
-</body>
-
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Tours. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
 </html>
